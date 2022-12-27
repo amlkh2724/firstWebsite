@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
-
 }
-
 .title {
     background-color: #333;
     text-shadow: 6px 6px rgb(0, 0, 0);
@@ -15,7 +13,45 @@ body {
     background: radial-gradient(at bottom right, #e3e5f3 0, #e3e5f3 25px, rgba(227, 229, 243, 0.2) 25px, rgba(227, 229, 243, 0.2) 50px, rgba(227, 229, 243, 0.75) 50px, rgba(227, 229, 243, 0.75) 75px, rgba(227, 229, 243, 0.25) 75px, rgba(227, 229, 243, 0.25) 100px, rgba(227, 229, 243, 0.3) 100px, rgba(227, 229, 243, 0.3) 125px, rgba(227, 229, 243, 0.75) 125px, rgba(227, 229, 243, 0.75) 150px, rgba(227, 229, 243, 0.2) 150px, rgba(227, 229, 243, 0.2) 175px, transparent 175px, transparent 200px), radial-gradient(at top left, transparent 0, transparent 25px, rgba(227, 229, 243, 0.2) 25px, rgba(227, 229, 243, 0.2) 50px, rgba(227, 229, 243, 0.75) 50px, rgba(227, 229, 243, 0.75) 75px, rgba(227, 229, 243, 0.3) 75px, rgba(227, 229, 243, 0.3) 100px, rgba(227, 229, 243, 0.25) 100px, rgba(227, 229, 243, 0.25) 125px, rgba(227, 229, 243, 0.75) 125px, rgba(227, 229, 243, 0.75) 150px, rgba(227, 229, 243, 0.2) 150px, rgba(227, 229, 243, 0.2) 175px, #e3e5f3 175px, #e3e5f3 200px, transparent 200px, transparent 500px);
     background-blend-mode: multiply;
     background-size: 200px 200px, 200px 200px;
-    background-color: #2c2828;
+    background-color: #212121e0;
+}
+
+#navbar {
+    overflow: auto;
+    padding: 0 50px;
+}
+
+.containerr {
+    position: fixed;
+    background-color: #333;
+    border-radius: 6px;
+    padding-left: 10px;
+    width: 100vw;
+    max-width: 1000px
+}
+
+#navbar a {
+    color: white;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 1.5rem;
+
 }
 
 .allText {
@@ -25,16 +61,6 @@ body {
 
 .allText {
     text-align: center;
-}
-
-.containerr {
-    max-width: 1000px;
-    overflow: auto;
-    padding: 0 50px;
-}
-
-.containerr:hover {
-    color: #333;
 }
 
 a {
@@ -70,36 +96,6 @@ h2 {
 
 #main-nav strong {
     color: #333;
-}
-
-#navbar {
-    background-color: #333;
-    color: white;
-    overflow: auto;
-}
-
-#navbar a {
-    color: white;
-}
-
-#navbar h1 {
-    float: left;
-    padding-top: 20px;
-}
-
-#navbar ul {
-    list-style: none;
-    float: right;
-}
-
-#navbar ul li {
-    float: left;
-}
-
-#navbar ul li a {
-    display: block;
-    padding: 1.5rem;
-
 }
 
 .myhobby {
